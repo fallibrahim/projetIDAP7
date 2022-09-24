@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#F5F5DC"
+    tools:context=".ProdList">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ajout produit"
+        android:textAlignment="center"
+        android:textColor="#47362F"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/idNomP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="nom du produit"
+        android:inputType="textPersonName"
+        android:textColorHint="#C9C0BB" />
+
+    <EditText
+        android:id="@+id/idQuantiteP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="quantité du produit"
+        android:inputType="textPersonName"
+        android:textColorHint="#C9C0BB" />
+
+    <EditText
+        android:id="@+id/idPrixP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="prix du produit"
+        android:inputType="number"
+        android:textColorHint="#C9C0BB"/>
+    <EditText
+        android:id="@+id/idfamilleP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="famille du produit"
+        android:inputType="textPersonName"
+        android:textColorHint="#C9C0BB"/>
+    <Button
+        android:id="@+id/idBouton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:width="200dp"
+        android:backgroundTint="#47362F"
+        android:text="Enregistrer"
+        android:textColor="#F5F5DC"/>
+
+</LinearLayout>

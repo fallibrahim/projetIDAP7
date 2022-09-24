@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="67dp"
+    tools:context=".ProdList">
+
+    <Button
+        android:id="@+id/btn_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#47362F"
+        android:textColor="#F5F5DC"
+        android:text="Ajouter un nouveau produit" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_ajout"
+        android:layout_centerHorizontal="true"
+        android:text="Produits Khelcoms"
+        android:textAlignment="center"
+        android:textColor="#805345"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/prodList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView2" />
+
+</RelativeLayout>
